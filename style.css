@@ -1,0 +1,36 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: salmon;
+}
+
+.container{
+    width: 60%;
+    min-height: 80vh;
+    margin: 4rem auto;
+    position: relative;
+    background: url("images/1.webp") center/cover fixed no-repeat;
+    transition: 1s ease-in-out;
+}
+.btn{
+    color: black;
+    background-color: white;
+    transform:translateY(calc(-50%));
+    padding: 15px;
+}
+.btn-left{
+    position: absolute;
+    top: 50%;
+    left: -4%;
+    background-color: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.btn-right{
+    position: absolute;
+    top: 50%;
+    right: -4%;
+    background-color: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+}
